@@ -6,6 +6,7 @@ function FetchAxios() {
     
   const [content, setContent] = useState('');
   const [author, setAuthor] = useState('');
+  // const [tags, setTags] = useState('');
 
   const fetchData = () => {
     axios.get(`https://api.quotable.io/random`)
@@ -13,6 +14,7 @@ function FetchAxios() {
       // console.log(res)
       setContent(res.data.content)
       setAuthor(res.data.author)
+      // setTags(res.data.tags)
     }).catch(err => {
       console.log(err)
     })
@@ -21,7 +23,8 @@ function FetchAxios() {
   return (
     <div className='green_line'>
         <h1>{author}</h1>
-        <h3><i>"{content}"</i></h3>
+        <h3><i>{content}</i></h3>
+        {/* <p>{tags}</p> */}
         <button onClick={fetchData}>Fetch Data</button>
     </div>
   )
