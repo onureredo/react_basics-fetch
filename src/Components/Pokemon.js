@@ -16,8 +16,6 @@ function Pokemon() {
           <li key={pokemon.id}>{pokemon.name}</li>
         ))}
       </ul>
-      
-      
     </div>
   )
 }
