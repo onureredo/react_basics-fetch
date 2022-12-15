@@ -9,8 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Axios/> */}
-      {/* <UseEffect /> */}
+      <Axios/>
+      <UseEffect />
       <Pokemon/>
 
 
