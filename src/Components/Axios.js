@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function FetchAxios() {
     
-    const [content, setContent] = useState('');
+  const [content, setContent] = useState('');
   const [author, setAuthor] = useState('');
 
   const fetchData = () => {

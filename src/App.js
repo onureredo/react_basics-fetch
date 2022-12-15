@@ -1,5 +1,6 @@
 import './App.css';
 import Axios from './Components/Axios';
+import Fetch from './Components/Fetch';
 
 function App() {
 
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <Axios/>
+      {/* <Axios/> */}
+      <Fetch />
 
 
     </div>

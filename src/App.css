@@ -12,7 +12,7 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 5rem;
   border: 2px solid #4CAF50;
   padding: 10rem;
@@ -47,4 +47,8 @@
   opacity: 70%;
   cursor: pointer;
   transition: all 0.35s;
+}
+
+.App li {
+  font-size: 1.15rem;
 }
