@@ -1,6 +1,7 @@
 import './App.css';
 import Axios from './Components/Axios';
-import Fetch from './Components/Fetch';
+import Pokemon from './Components/Pokemon';
+import UseEffect from './Components/UseEffect';
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
   return (
     <div className="App">
       {/* <Axios/> */}
-      <Fetch />
+      {/* <UseEffect /> */}
+      <Pokemon/>
 
 
     </div>
