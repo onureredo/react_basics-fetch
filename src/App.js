@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <Axios/>
-      <UseEffect />
-      <Pokemon/>
+      {/* <UseEffect />
+      <Pokemon/> */}
 
 
     </div>
